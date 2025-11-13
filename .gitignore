@@ -14,8 +14,6 @@ yarn-error.log*
 # # # Backend (Python, LangChain, FastAPI) # # #
 
 # Virtual environments
-/backend/venv/
-/backend/venv_new/
 /backend/myenv/
 *.venv
 
@@ -37,6 +35,12 @@ __pycache__/
 
 # Node dependencies
 /frontend/node_modules/
+
+/frontend/vite.config.js/
+/frontend/eslint.config.js/
+/frontend/jsconfig.json/
+/frontend/package.json/
+/frontend/src/lib/utils.js/
 
 # Build files
 /frontend/dist/
